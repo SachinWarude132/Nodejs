@@ -16,6 +16,14 @@ const note = await noteModel.create({
   })  
 })
 
+app.get("/notes", async (req,res)=>{
+    const notes = await noteModel.find()
+    res.status(200).json({
+        message:"NOtes  Fetched successfully ",
+        notes
+    })
+})
+
 
 
 module.exports=app
