@@ -1,0 +1,22 @@
+/* CSS Boilerplate */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  background: #111;
+}
+
+.mouse-follower {
+  height: 20px;
+  background: #fff;
+  width: 20px;
+  border-radius: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}/*# sourceMappingURL=style.css.map */
